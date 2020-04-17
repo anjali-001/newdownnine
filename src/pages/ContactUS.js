@@ -38,8 +38,8 @@ const Err=styled.div `
     overflow-X:hidden;
   
 .map{
-    width:400px ;
-    height:400px;
+    width:350px ;
+    height:350px;
     border:none;
     border:3px solid #ff9900; 
  }
