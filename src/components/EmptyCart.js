@@ -7,7 +7,8 @@ function EmptyCart() {
     return (
         <Err className="text-center ">
                    <h1>THE CART IS EMPTY<br />
-                    Head Back To </h1> <Link to="/" className="btn "> Store Menu </Link>
+                    Head Back To </h1> <Link to="/Menu" className="btn "> Store Menu </Link>
+                    
          </Err>
     )
 }
