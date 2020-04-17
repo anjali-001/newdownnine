@@ -1,0 +1,51 @@
+:root{
+    --mainGrey: #1a1a1a;
+    --mainDark:   #000000;
+    --lightPink: #ff8080;
+    --darkPink: #972727;
+    --mainWhite: #ffffff;
+    --lightYellow:#e68a00;
+    --darkYellow: #6e4404;
+    --mainSpacing: 3px;
+    --mainTransition: all 0.3s linear;
+    
+
+}
+*{
+    overflow-x: hidden;
+}
+
+body{
+    font-family:'Merriweather', serif !important;
+    background-color: var(--mainWhite) !important;
+    color: var(--mainDark)!important;
+}
+.logo{
+    width: 200px;
+    height: 65px;
+}
+.nav-bg{
+    background:var(--mainDark);
+}
+.nav-element{
+    color: var(--lightYellow)!important;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+.nav-btn{
+    color: var(--lightYellow)!important;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+}
+.nav-element:hover,.nav-btn:hover{
+    color: var(--darkYellow)!important;
+    text-decoration: none;
+}
+.image{
+    width:400px;
+    height:500px;
+}
